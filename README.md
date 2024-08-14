@@ -11,3 +11,10 @@ Yolov8 implementation from Scratch
 
 - `C2f` combines high-level features with contextual information to improve `detection` accuracy.
 - `SPPF` processes features at various scales and pool them into a fixed sized feature map.
+
+### Neck
+The neck has 
+1. Upsample
+2. C2f
+
+`Upsample` is nearest-neighbor interpolation with scale_factor = 2
