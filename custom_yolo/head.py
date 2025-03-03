@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
 
-from backbone import yolo_params, Conv
-from neck import Neck, Backbone
+from custom_yolo.backbone import yolo_params, Conv
+from custom_yolo.neck import Neck, Backbone
 
 
 class DFL(nn.Module):

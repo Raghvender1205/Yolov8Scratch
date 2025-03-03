@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-from model import Conv, C2f, SPPF
+from custom_yolo.model import Conv, C2f, SPPF
 
 
 # Yolo v8 params of different variants

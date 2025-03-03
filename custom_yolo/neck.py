@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from backbone import yolo_params, C2f, Conv, SPPF, Backbone
+from custom_yolo.backbone import yolo_params, C2f, Conv, SPPF, Backbone
 
 
 class Upsample(nn.Module):

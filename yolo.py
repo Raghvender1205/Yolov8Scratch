@@ -1,9 +1,9 @@
 import torch
 import torch.nn as nn
 
-from backbone import Backbone
-from neck import Neck
-from head import Head
+from custom_yolo.backbone import Backbone
+from custom_yolo.neck import Neck
+from custom_yolo.head import Head
 
 
 class CustomYolo(nn.Module):
